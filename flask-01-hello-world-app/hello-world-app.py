@@ -4,7 +4,7 @@ app = Flask(__name__)
 def head():
    return "Hello World Paul"
 
-@app.route('/secondpage')
+@app.route('/second')
 def second():
    return "This is second Page"
 
@@ -19,5 +19,5 @@ def fourth(id):
 if __name__ == '__main__':
 
      app.run(debug=True)
-     app.run(host= '0.0.0.0', port=3000)
-     #app.run(host= '0.0.0.0', port=8080)
+     #app.run(host= '0.0.0.0', port=3000)
+     app.run(host= '0.0.0.0', port=8080)
