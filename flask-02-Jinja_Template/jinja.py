@@ -7,8 +7,8 @@ def head():
 
 @app.route('/sum')
 def number():
-   num1=14
-   num2=25
+   num1=456
+   num2=258
    return render_template('body.html', value1=num1, value2=num2, sum=num1+num2)
 
 if __name__== "__main__":
